@@ -1,0 +1,59 @@
+body{
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.btn-primary{
+    background: linear-gradient(90deg, #44C9CC 0%, #3399CC 100%);
+}
+
+.ml-n1{
+    margin-left: -2rem;
+}
+
+.ml-n2{
+    margin-left: -4rem;
+}
+
+.ml-n3{
+    margin-left: -6rem;
+}
+
+.ml-n4{
+    margin-left: -8rem;
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.bg-image {
+  background-image: url(../img/Frame\ 90.png);
+  background-repeat: no-repeat;
+}
+.py-6{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.px-6{
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+.mt-6{
+    margin-top: 7rem;
+}
+.text-primary{
+    color: #6EBFC5 !important;
+}
+
+.border-primary{
+    border-color: #6EBFC5 !important;
+}
+
+.bg-primary {
+    background-color: #31323B !important;
+}
+
+.footer-link {
+    list-style-type: none;
+}

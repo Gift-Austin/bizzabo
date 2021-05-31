@@ -5,6 +5,14 @@ body{
     background: linear-gradient(90deg, #44C9CC 0%, #3399CC 100%);
 }
 
+.btn-secondary{
+    background: linear-gradient(90deg, #FDAF48 0%, #FC8B62 100%);
+}
+
+.btn-outline-secondary{
+    border: 1px solid  #FC8B62;
+}
+
 .ml-n1{
     margin-left: -2rem;
 }
@@ -21,12 +29,21 @@ body{
     margin-left: -8rem;
 }
 
+.ms-6{
+    margin-left: 7rem;
+}
+
 img{
     image-rendering: -webkit-optimize-contrast;
 }
 
 .bg-image {
   background-image: url(../img/Frame\ 90.png);
+  background-repeat: no-repeat;
+}
+
+.bg-image-two {
+    background-image: url(../img/Frame\ 82.png);
   background-repeat: no-repeat;
 }
 .py-6{
@@ -56,4 +73,35 @@ img{
 
 .footer-link {
     list-style-type: none;
+}
+
+.text-secondary {
+    color: #F0AE5C !important;
+}
+
+.bg-image-one {
+  background-image: url(../img/image.module.png);
+  background-repeat: no-repeat;
+}
+
+.bg-image-three {
+  background-image: url(../img/Project.item.png);
+  background-repeat: no-repeat;
+}
+
+.bg-image-four {
+  background-image: url(../img/Project.item\ \(1\).png);
+  background-repeat: no-repeat;
+}
+
+.h30 {
+    height: 30rem !important;
+}
+
+.h25 {
+    height: 25rem !important;
+}
+
+.bg-tertiary{
+    background-color: #ECECED !important;
 }

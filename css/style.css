@@ -105,3 +105,14 @@ img{
 .bg-tertiary{
     background-color: #ECECED !important;
 }
+
+@media(max-width:375px){
+    .px-6{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .py-6{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
